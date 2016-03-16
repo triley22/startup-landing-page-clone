@@ -1,8 +1,18 @@
 body {
-	background-color: lightblue;
+	background-color: white;
+	/* Navigation Section */
+	.top-navigation {
+		background-color: #fff;
+	}
+
+	.top-navigation > .content {
+		width: 970px;
+		height: 70px;
+		margin: 0 auto;
+	}
+ 
 }
 
 h1 {
-	color:navy;
-	margin-left: 20px;
+	border: 1px solid chocolate;
 }
