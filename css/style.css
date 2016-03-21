@@ -85,8 +85,26 @@ html {
 	color: white;
 	text-align: center;
 	margin-top: 1.563rem;
-	
-
 }
+/**
+*The 3 icons*
+*/
+
+.icon {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
