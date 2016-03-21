@@ -6,7 +6,16 @@ html {
 }
 	body {
 	background-color: white;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+
 }
+
+.content {
+	padding: 0 0.938rem;
+	margin: 0 auto;
+}
+
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
@@ -24,7 +33,7 @@ html {
 	font-size: 16px;
 	margin-top: 28px;
 	letter-spacing: 0.03em;
-	-webkit-font-smoothing: antialiased;
+	
 
 }
 .top-navigation .links li {
@@ -32,7 +41,52 @@ html {
 	padding: 0px 15px;
 }
 
-.background_image {
-	background-position: middle;
+/* Introduction Section */
+
+.introduction {
+	background-image: url(http://i.imgur.com/cNrjVJn.jpg?1);
+	background-position: center-bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
 }
+
+.introduction h1,
+.introduction h3 {
+	vertical-align: middle;
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+
+.introduction h1,	{
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+
+/** 
+* The Buttons
+*/
+
+.button {
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+}
+
+.introduction .buttons {
+	color: white;
+	text-align: center;
+	margin-top: 1.563rem;
 	
+
+}
+
+
